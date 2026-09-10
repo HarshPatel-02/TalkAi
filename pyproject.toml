@@ -1,0 +1,19 @@
+[project]
+name = "voice-ai"
+version = "1.0.0"
+description = "Voice AI - Text-to-Speech & Speech-to-Text API"
+readme = "README.md"
+authors = [
+    { name = "harsh-patel-02", email = "harsh@kodecreators.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "kokoro>=0.9.4",
+    "sounddevice>=0.5.6",
+    "soundfile>=0.14.0",
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "python-multipart>=0.0.6",
+    "slowapi>=0.1.10",
+]
